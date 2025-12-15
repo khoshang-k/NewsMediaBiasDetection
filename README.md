@@ -8,9 +8,9 @@ Dataset: [Qbias Repo](https://github.com/irgroup/Qbias/blob/main/allsides_balanc
 The datset was scraped from [Allsides](https://www.allsides.com/unbiased-balanced-news)
 
 # File Information
-raw_dataset.csv: It contains raw data scraped from Allsides.com
-PreProcess.py: It contains preprocessing code used to preprocess raw_dataset.
+raw_dataset.csv: It contains raw data scraped from Allsides.com  
+PreProcess.py: It contains preprocessing code used to preprocess raw_dataset.  
 - Removed unfinished scentences by truncating it to last completed sentence. (eg: Github is good. It is... -> Github is good.)
 - Removed uppercase lettering to avoid different identification of same words.
-- Left, Right and Center bias news articles were unequal, which were equaled to avoid bias in processing. Each news heading has 3 news article in processed dataset (data.csv)
+- Left, Right and Center bias news articles were unequal, which were equaled to avoid bias in processing. Each news heading has 3 news article in processed dataset (data.csv)  
 data.csv: It contains pre-processed dataset.   
